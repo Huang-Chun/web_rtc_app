@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ScreenShare</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">LOGIN</string>
+    <string name="logout">LOGOUT</string>
+    <string name="screen_share">SCREEN SHARE</string>
+    <string name="room_password">Room Password</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="user_information">User information</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_screen_share">ScreenShareActivity</string>
+    <string name="create" />
+</resources>

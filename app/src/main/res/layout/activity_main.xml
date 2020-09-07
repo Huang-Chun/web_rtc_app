@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <!--  register  -->
+
+    <EditText
+        android:id="@+id/et_register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textWebPassword" />
+
+    <EditText
+        android:id="@+id/et_register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:importantForAutofill="no"
+        android:inputType="textWebPassword" />
+
+    <Button
+        android:id="@+id/b_register"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/to_login"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:text="please" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray" />
+
+    <!--  login  -->
+
+    <EditText
+        android:id="@+id/et_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textWebEmailAddress"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textWebPassword"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/b_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray" />
+
+    <!--  logout  -->
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="@string/user_information"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/b_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray" />
+
+    <!--  screen share  -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_share"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_room_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/room_password"
+        android:importantForAutofill="no"
+        android:inputType="textWebPassword" />
+
+    <Button
+        android:id="@+id/b_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/b_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
